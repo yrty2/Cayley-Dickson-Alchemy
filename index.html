@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>ケーリーディクソンアルケミー</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    </head>
+    <style>
+        .maintext{
+            font-size:30px
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        #res1{
+            font-size:20px;
+            width:10%;
+            height:5%;
+        }
+        #res2{
+            font-size:20px;
+            width:10%;
+            height:5%;
+        }
+        #btc{
+            font-size:20px;
+            width:15%;
+            height:5%;
+        }
+    </style>
+    <body>
+        <h1>自作ゲームのアイテム合成規則のための試作</h1>
+        <hr>
+        <div class="maintext">
+            素材1:<select id="res1"></select><br>
+            素材2:<select id="res2"></select><br><br>
+            <input id="btc" type="button" onclick="multiply()" value="合成！" />
+            <hr>
+            結果:<t id="result"></t>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
